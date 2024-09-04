@@ -1,0 +1,88 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "addcart-feature;add-cart",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Add Cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 512317599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Sign up and login",
+            "match": {
+              "location": "src\\StepDefinitions\\Addcart_steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6847079999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "visit shop and add product to the Cart",
+            "match": {
+              "location": "src\\StepDefinitions\\Addcart_steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1176652500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "procced tp checkout and Check the prodcut same as the selected product",
+            "match": {
+              "location": "src\\StepDefinitions\\Addcart_steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3317652100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 296432100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testcasekey=SPSPS-518",
+            "line": 3
+          },
+          {
+            "name": "@Test",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "addcart-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Addcart Feature",
+    "tags": [],
+    "uri": "src\\Features\\AddCart.feature"
+  }
+]
